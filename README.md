@@ -8,16 +8,16 @@ Join us as we explore each game and push your abilities to the limit!
 
 🧩 **Minigames:** 🧩
 
-**Anagram Assault:** Unscramble letters to form words in a race against the clock!
-**Button Bash:** Tap furiously to achieve the highest score possible.
-**Chip Hunt:** Use a guiding light to uncover hidden chips in the dark.
-**Hangman's Gambit:** Guess the word before your chances run out.
-**Key Drop Craze:** Match falling keys with precise timing to win.
-**Pin Code Puzzle:** Deduce the correct pin with logic and intuition.
-**Safe Crack Conundrum:** Feel the tension as you rotate the dial to unlock secrets.
-**Skill Bar Challenge:** A test of timing and precision within a moving zone.
-**Skill Circle:** A circular twist on the skill bar with a focus on accuracy.
-**Wire Cut Pressure:** Make the right choice to cut wires under pressure.
+- **Anagram:** Unscramble letters to form words in a race against the clock!
+- **Button Mash:** Tap furiously to achieve the highest score possible.
+- **Chip Hack:** Use a guiding light to uncover hidden chips in the dark.
+- **Hangman:** Guess the word before your chances run out.
+- **Key Drop:** Match falling keys with precise timing to win.
+- **Pin Code:** Deduce the correct pin with logic and intuition.
+- **Safe Crack:** Feel the tension as you rotate the dial to unlock secrets.
+- **Skill Bar:** A test of timing and precision within a moving zone.
+- **Skill Circle:** A circular twist on the skill bar with a focus on accuracy.
+- **Wire Cut:** Make the right choice to cut wires under pressure.
 
 ### Dependencies
 
