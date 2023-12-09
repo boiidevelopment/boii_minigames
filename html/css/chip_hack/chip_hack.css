@@ -1,0 +1,110 @@
+/*----------------------------*/
+/*---- BOII | DEVELOPMENT ----*/
+/*----------------------------*/
+
+.chip_hack_loading {
+    position: relative;
+    height: 60%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chip_hack_loading_text {
+    position: absolute;
+}
+
+.chip_hack_loading_icons {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.chip_hack_loading_icon_1,
+.chip_hack_loading_icon_2,
+.chip_hack_loading_icon_3 {
+    position: absolute;
+}
+
+.chip_hack_loading_icon_1 {
+    left: 42.5%;
+}
+
+.chip_hack_loading_icon_2 {
+    bottom: 0;
+    left: -3;
+}
+
+.chip_hack_loading_icon_3 {
+    bottom: 0;
+    right: 0;
+}
+
+.flashing {
+    animation: flash 1s ease-in-out infinite;
+}
+
+.chip_hack_window_toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    background-color: rgba(31, 30, 30, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Orbitron';
+}
+
+.chip_hack_game_counter {
+    margin-left: 1%;
+}
+
+.chip_hack_game_timer {
+    margin-right: 1%;
+}
+
+.chip_hack_game_area {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    height: 95%;
+    width: 100%;
+    border-radius: 0 0 25px 25px;
+}
+
+.chip {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+
+.chip_hack_light {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: radial-gradient(circle at center, transparent 30px, rgba(255, 255, 255, 0.3) 260px);
+    pointer-events: none;
+    z-index: 3;
+}
+
+.chip_hack_shadow {
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 2;
+}
+
+.chip_hack_result_screen {
+    text-transform: uppercase;
+}

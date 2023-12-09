@@ -1,0 +1,206 @@
+/*----------------------------*/
+/*---- BOII | DEVELOPMENT ----*/
+/*----------------------------*/
+
+.hangman_loading {
+    position: relative;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hangman_loading_text {
+    position: absolute;
+}
+
+.hangman_loading_icons {
+    position: absolute;
+    top: 15%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.hangman_loading_icon_1,
+.hangman_loading_icon_2,
+.hangman_loading_icon_3 {
+    margin: 8%;
+}
+
+.hangman_loading_icon_1,
+.hangman_loading_icon_2 {
+    position: relative;
+    display: inline-block;
+}
+
+.hangman_loading_icon_1::after,
+.hangman_loading_icon_2::after {
+    content: '';
+    position: absolute;
+    top: 65%;
+    right: -7.4vw;
+    width: 6vw;
+    height: 0.3vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-50%);
+}
+
+.line_complete::after {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hangman_result_screen {
+    text-transform: uppercase;
+}
+
+.hangman_window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.hangman_window_toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    background-color: rgba(31, 30, 30, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.hangman_window_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    border-radius: 0 0 25px 25px;
+    background-color: rgba(31, 30, 30, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+}
+
+.hangman_guesses_left {
+    margin-left: 1%;
+}
+
+.hangman_game_timer {
+    margin-right: 1%;
+}
+
+.hangman_footer_left {
+    width: 70%;
+}
+
+.hangman_footer_right {
+    width: 30%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.hangman_guess_input {
+    height: 100%;
+    width: 90%;
+    padding-left: 20px;
+    border-radius: 0 0 0 25px;
+    border: 1px solid #ddd;
+    font-size: 1.2rem;
+}
+
+.hangman_submit_button {
+    height: 100%;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-left: -10px;
+}
+
+.hangman_submit_button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hangman_window_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#hangman_word_display {
+    font-size: 3rem;
+    margin: 20px auto;
+    color: rgba(180, 180, 180, 1);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hangman_keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 11%;
+    background: rgba(30, 30, 30, 1);
+    
+}
+
+.keyboard_row {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.keyboard_key {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    background: radial-gradient(circle, rgba(15, 15, 15, 1) 40%, rgba(60, 60, 60, 1) 100%);
+    height: 6vh;
+    width: 3.5vw;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(180, 180, 180, 1);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 1), inset 3px 3px 30px 3px rgba(0, 0, 0, 1);
+    font-family: 'Roboto';
+    user-select: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.keyboard_key:hover {
+    background-color: #666;
+}
+
+.keyboard_key:disabled {
+    background: radial-gradient(circle, rgba(55, 55, 55, 1) 40%, rgba(100, 100, 100, 1) 100%);
+    color: rgba(180, 180, 180, 0.75);
+    cursor: not-allowed;
+}

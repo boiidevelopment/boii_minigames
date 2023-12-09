@@ -1,0 +1,27 @@
+/*----------------------------*/
+/*---- BOII | DEVELOPMENT ----*/
+/*----------------------------*/
+
+/* fonts */
+/* you can import additional fonts here  */
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Open+Sans&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nova+Square&family=Oswald&display=swap');
+
+@font-face {
+    font-family: 'Digital';
+    src: url('../assets/fonts/digital-7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* root styles may be added down the line for now this is place holder */
+:root {
+    
+}

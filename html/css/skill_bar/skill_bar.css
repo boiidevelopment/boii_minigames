@@ -1,0 +1,50 @@
+/*----------------------------*/
+/*---- BOII | DEVELOPMENT ----*/
+/*----------------------------*/
+
+.skill_bar_container {
+    position: relative;
+    top: 30%;
+    width: 25%;
+    height: 3%;
+    background: radial-gradient(circle, rgba(15, 15, 15, 1) 40%, rgba(60, 60, 60, 1) 100%);
+    border-radius: 20px;
+    border: 2px solid rgba(180, 180, 180, 1);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1), inset 5px 5px 50px 5px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    margin: 20px;
+}
+
+.skill_bar_target_area {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: rgba(31, 30, 30, 0.75);
+    border-right: 2px solid rgba(180, 180, 180, 1);
+    border-left: 2px solid rgba(180, 180, 180, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill_bar_icon {
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    width: 5%;
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+    color: #4dcbc2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill_bar_verticle {
+    transform: translateY(-50%);
+}
+
+.skill_bar_perfect_area {
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.5);
+}

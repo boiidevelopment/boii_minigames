@@ -1,0 +1,41 @@
+/*----------------------------*/
+/*---- BOII | DEVELOPMENT ----*/
+/*----------------------------*/
+
+.wire_cut_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(100, 100, 100, 1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 1), inset 5px 5px 50px 5px rgba(0, 0, 0, 1);
+    background-image: url('../../assets/images/circuit.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 70, 0, 1);
+    user-select: none;
+}
+
+.wire_cut_timer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 100%;
+    border-top: 5px solid rgba(100, 100, 100, 1);
+    font-family: 'Digital', sans-serif;
+    font-size: 4.5rem;
+    color: rgba(180, 180, 180, 0.65);
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 1), 1px -1px 1px rgba(0, 0, 0, 1), -1px 1px 1px rgba(0, 0, 0, 1), 1px 1px 1px rgba(0, 0, 0, 1);
+    background-image: url('../../assets/images/screen.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(14, 14, 14, 1);
+    user-select: none;
+    border-radius: 0 0 10px 10px;
+}
+
+#wire_cut_canvas {
+    display: block;
+}

@@ -1,0 +1,48 @@
+/*----------------------------*/
+/*---- BOII | DEVELOPMENT ----*/
+/*----------------------------*/
+
+.current_key_display {
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+    background: radial-gradient(circle, rgba(15, 15, 15, 1) 40%, rgba(60, 60, 60, 1) 100%);
+    height: 5vh;
+    width: 3vw;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(180, 180, 180, 1);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 1), inset 3px 3px 30px 3px rgba(0, 0, 0, 1);
+    font-family: 'Roboto';
+    user-select: none;
+}
+
+.button_mash_container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button_mash_canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.button_mash_info {
+    position: absolute;
+    top: 29.5%;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    user-select: none;
+    text-shadow: -1px -1px 1px rgba(180, 180, 180, 1), 1px -1px 1px rgba(180, 180, 180, 1), -1px 1px 1px rgba(180, 180, 180, 1), 1px 1px 1px rgba(180, 180, 180, 1);
+}
