@@ -9,7 +9,7 @@ Join us as we explore each game and push your abilities to the limit!
 🧩 **Minigames:** 🧩
 
 - **Anagram:** Unscramble letters to form words in a race against the clock!
-- **Button Mash:** Tap furiously to achieve the highest score possible.
+- **Button Mash:** Tap furiously to achieve success.
 - **Chip Hack:** Use a guiding light to uncover hidden chips in the dark.
 - **Hangman:** Guess the word before your chances run out.
 - **Key Drop:** Match falling keys with precise timing to win.
